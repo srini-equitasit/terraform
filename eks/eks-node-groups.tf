@@ -75,8 +75,8 @@ scaling_config {
 }
 
 # Type of Amazon Machine Image (AMI) associated with the EKS node group
-#Valid values AL2_X86_64, AL2_X86_64_GPU, AL2_ARM_64
-ami_type = "AL2_X86_64"
+#Valid values [AL2_x86_64 AL2_x86_64_GPU AL2_ARM_64 CUSTOM BOTTLEROCKET_ARM_64 BOTTLEROCKET_x86_64 BOTTLEROCKET_ARM_64_NVIDIA BOTTLEROCKET_x86_64_NVIDIA]
+ami_type = "AL2_x86_64"
 
 # Type of capacity associated with EKS node group
 # Valid Values : ON_DEMAND, SPOT
