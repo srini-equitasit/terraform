@@ -1,5 +1,5 @@
 module "alb_ingress_controller" {
-  source  = "iplabs/alb-ingress-controller/kubernetes"
+#   source  = "iplabs/alb-ingress-controller/kubernetes"
   version = "3.1.0"
 
   providers = {
