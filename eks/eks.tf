@@ -6,20 +6,19 @@ name = "eks-cluster"
 # The ploicy that grants an entity permission to assume the role
 # Used to access AWS resources that might not normally have access to.
 # The Role that Amazon EKS will use to create AWS resources for kubernetes cluster.
- assume_role_policy = <<POLICY
+  assume_role_policy = <<POLICY
+{
+  "Version": "2012-10-17",
+  "Statement": [
     {
-    "Version":"2012-10-17",
-        "Statement": [
-            {
-                "Effect": "Allow",
-                "Principal": {
-                    "Service":"eks.amazonaws.com"
-                },
-                "Action": "sts:AssumeRole"
-            }
-        ]
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "eks.amazonaws.com"
+      },
+      "Action": "sts:AssumeRole"
     }
-
+  ]
+}
 POLICY
 }
 
