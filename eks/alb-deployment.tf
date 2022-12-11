@@ -1,6 +1,7 @@
 module "alb_ingress_controller" {
 #   source  = "iplabs/alb-ingress-controller/kubernetes"
-  version = "3.1.0"
+  source="hashicorp/aws"
+  version = "~> 3.75.2"
 
   providers = {
     kubernetes = "kubernetes.eks"
