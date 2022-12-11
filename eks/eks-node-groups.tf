@@ -37,7 +37,7 @@ resource "aws_iam_role_policy_attachment" "amazon_eks_cni_policy_general" {
 
 resource "aws_iam_role_policy_attachment" "amazon_ec2_container_registery_read_only" {
 # policy to be applied
-  policy_arn = "arn:aws:iam::aws:policy:/AmazonEC2ContainerRegistryReadOnly"
+  policy_arn = "arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryReadOnly"
 
 #The role name  
   role = aws_iam_role.nodes_general.name
