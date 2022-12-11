@@ -16,7 +16,7 @@ tags = {
 #   below two are required
 # clustering is shared, it means that cluster will allow eks cluster discover this particular subnet and use it.
   "Kubernetes.io/cluster/eks" = "shared"
-  "Kubernates.io/role/elb" = 1
+  "kubernetes.io/role/elb" = 1
 }
 
 }
@@ -40,7 +40,7 @@ tags = {
 #   below two are required
 # clustering is shared, it means that cluster will allow eks cluster discover this particular subnet and use it.
   "Kubernetes.io/cluster/eks" = "shared"
-  "Kubernates.io/role/elb" = 1
+  "kubernetes.io/role/elb" = 1
 }
 
 }
@@ -64,7 +64,7 @@ tags = {
 #   below two are required
 # clustering is shared, it means that cluster will allow eks cluster discover this particular subnet and use it.
   "Kubernetes.io/cluster/eks" = "shared"
-  "Kubernates.io/role/internal-elb" = 1
+  "kubernetes.io/role/internal-elb" = 1
 }
 
 }
@@ -86,7 +86,7 @@ tags = {
 #   below two are required
 # clustering is shared, it means that cluster will allow eks cluster discover this particular subnet and use it.
   "Kubernetes.io/cluster/eks" = "shared"
-  "Kubernates.io/role/internal-elb" = 1
+  "kubernetes.io/role/internal-elb" = 1
 }
 
 }
