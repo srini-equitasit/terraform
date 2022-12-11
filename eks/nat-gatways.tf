@@ -3,7 +3,7 @@ resource "aws_nat_gateway" "gw1" {
   
   # The allocation ID of the Elastic IP address for the gateway
   # Allocate public ip for nat gateway
-  allocation_id = aws_eip.nat1
+  allocation_id = aws_eip.nat1.id
 
   # place the gatway in subnet
   subnet_id = aws_subnet.public_1-us-east-2a.id
@@ -20,7 +20,7 @@ resource "aws_nat_gateway" "gw2" {
   
   # The allocation ID of the Elastic IP address for the gateway
   # Allocate public ip for nat gateway
-  allocation_id = aws_eip.nat2
+  allocation_id = aws_eip.nat2.id
 
   # place the gatway in subnet
   subnet_id = aws_subnet.public_2-us-east-2b.id
