@@ -22,4 +22,6 @@ https://www.densify.com/kubernetes-autoscaling/kubernetes-service-load-balancer
 ## application load balancer (ingress)
 https://docs.aws.amazon.com/eks/latest/userguide/alb-ingress.html
 
+https://registry.terraform.io/modules/Young-ook/eks/aws/latest/examples/lb
+
 
