@@ -6,6 +6,8 @@ https://antonputra.com/terraform/how-to-create-eks-cluster-using-terraform/#crea
 ## update kube config
 aws eks --region us-east-2 update-kubeconfig --name eks
 
+aws eks --region us-east-2 update-kubeconfig --name my-eks
+
 ## reference video
 https://www.youtube.com/watch?v=aIpHYYcR7oU&list=PLiMWaCMwGJXkeBzos8QuUxiYT6j8JYGE5&index=7
 
@@ -20,8 +22,14 @@ https://www.densify.com/kubernetes-autoscaling/kubernetes-service-load-balancer
 
 
 ## application load balancer (ingress)
+
+https://antonputra.com/amazon/create-eks-cluster-using-terraform-modules/
+
 https://docs.aws.amazon.com/eks/latest/userguide/alb-ingress.html
 
 https://registry.terraform.io/modules/Young-ook/eks/aws/latest/examples/lb
+
+## workshop on EKS
+https://tf-eks-workshop.workshop.aws/
 
 
