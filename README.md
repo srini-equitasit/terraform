@@ -25,6 +25,8 @@ https://www.densify.com/kubernetes-autoscaling/kubernetes-service-load-balancer
 
 https://antonputra.com/amazon/create-eks-cluster-using-terraform-modules/
 
+https://antonputra.com/amazon/create-eks-cluster-using-terraform-modules/#deploy-aws-load-balancer-controller
+
 https://docs.aws.amazon.com/eks/latest/userguide/alb-ingress.html
 
 https://registry.terraform.io/modules/Young-ook/eks/aws/latest/examples/lb
